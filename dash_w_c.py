@@ -18,7 +18,7 @@ def load_data():
         return pd.DataFrame()
 
 # --- 2. Frontend UI ---
-st.title("SME Salary Dashboard Prototype")
+st.title("SME Salary Dashboard")
 st.markdown("Use this tool to benchmark salaries against standard market rates in Singapore.")
 
 df = load_data()
